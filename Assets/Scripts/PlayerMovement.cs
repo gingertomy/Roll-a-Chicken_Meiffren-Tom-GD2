@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private float _horizontalMovement;
     private float _verticalMovement;
     private Vector3 _movement;
+    [SerializeField] private float _speed = 2f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,6 +23,8 @@ public class PlayerMovement : MonoBehaviour
         _verticalMovement = Input.GetAxis("Vertical");
         _movement = new Vector3(_horizontalMovement, 0.0f, _verticalMovement);
         _movement.Normalize();
+        _movement *= _speed;
+        _movement.y = _rb.linearVelocity.y;
         if (_rb != null)
         {
             _rb.linearVelocity = _movement;
