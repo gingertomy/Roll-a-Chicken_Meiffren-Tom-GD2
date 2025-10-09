@@ -21,7 +21,9 @@ public class WallSpawner : MonoBehaviour
         {
             return;
         }
-        Instantiate(_wallPrefab, _spawnPoints[_spawnPointIndex].position, _spawnPoints[_spawnPointIndex].rotation);
+        Instantiate(_wallPrefab, 
+            _spawnPoints[_spawnPointIndex].position, 
+            _spawnPoints[_spawnPointIndex].rotation);
         _spawnPointIndex++;
        
     }
