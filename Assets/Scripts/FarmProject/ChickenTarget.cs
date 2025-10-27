@@ -1,7 +1,7 @@
 using UnityEngine;
 
-public class Target_Hard : MonoBehaviour
-{
+public class ChickenTarget : MonoBehaviour
+{    
     [SerializeField] private int _targetValue = 1;
     private void OnCollisionEnter(Collision other)
     {
@@ -12,3 +12,4 @@ public class Target_Hard : MonoBehaviour
         }
     }
 }
+

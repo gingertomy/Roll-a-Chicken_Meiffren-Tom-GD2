@@ -8,11 +8,11 @@ public class WallSpawner : MonoBehaviour
     private int _spawnPointIndex= 0 ;
     private void OnEnable()
     {
-        Player_Collect.OnTargetCollected += SpawnNewWall;
+        //Player_Collect.OnTargetCollected += SpawnNewWall;
     }
     private void OnDisable()
     {
-        Player_Collect.OnTargetCollected -= SpawnNewWall;
+        //Player_Collect.OnTargetCollected -= SpawnNewWall;
     }
 
     private void SpawnNewWall(int score)

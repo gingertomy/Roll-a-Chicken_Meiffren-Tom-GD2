@@ -11,16 +11,16 @@ public class Target_Soft : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<Player_Collect>() != null)
+        if (other.gameObject.GetComponent<Collector>() != null)
         {
-            other.gameObject.GetComponent<Player_Collect>().UpdateScore(_targetValue);
+            other.gameObject.GetComponent<Collector>().UpdateScore(_targetValue);
             //Destroy(gameObject);
             //TODO : Hide target
             ToggleVisibility(false);
             //TODO : Start Timer
             //_isInShadows = true;
             //fais spawn un acteur, si on met un transform c'est son parent
-            Instantiate(_particuleEffect, transform.position, Quaternion.identity);
+            //Instantiate(_particuleEffect, transform.position, Quaternion.identity);
             StartCoroutine(ShadowTimerControl());
         }
     }
