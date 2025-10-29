@@ -1613,7 +1613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6706367876043628575, guid: caf87a86208bd6a41a2369564622c98f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.1420002
+      value: 1.646
       objectReference: {fileID: 0}
     - target: {fileID: 6706367876043628575, guid: caf87a86208bd6a41a2369564622c98f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3501,6 +3501,22 @@ PrefabInstance:
       propertyPath: _wateringCan
       value: 
       objectReference: {fileID: 1927039946}
+    - target: {fileID: 8590326786845848987, guid: c29c0977666191b40be29eac78f80e64, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590326786845848987, guid: c29c0977666191b40be29eac78f80e64, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99999946
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590326786845848987, guid: c29c0977666191b40be29eac78f80e64, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.0011087288
+      objectReference: {fileID: 0}
+    - target: {fileID: 8590326786845848987, guid: c29c0977666191b40be29eac78f80e64, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.127
+      objectReference: {fileID: 0}
     - target: {fileID: 9060897900690443227, guid: c29c0977666191b40be29eac78f80e64, type: 3}
       propertyPath: m_Name
       value: PlantSlot
