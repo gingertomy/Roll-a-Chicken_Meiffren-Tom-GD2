@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ScoreData
   m_EditorClassIdentifier: 
   ScoreValue: 0
-  Inventory: 7
+  Inventory: 0
