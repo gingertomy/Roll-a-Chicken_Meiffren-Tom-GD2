@@ -27,7 +27,7 @@ public class UIController : MonoBehaviour
     
     public void UpdateScore(int newScore)
     {
-        _scoreText.text = $"Score : {newScore.ToString()}/10";
+        _scoreText.text = $"Chicken : {newScore.ToString()}/10";
     }
 
     public void UpdateInventory(int newInventory)
