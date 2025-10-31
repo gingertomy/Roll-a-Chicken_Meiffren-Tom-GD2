@@ -5432,6 +5432,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6caef6ebb8a7168449217c2f996360b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &744810821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1343966692224282248, guid: cf4cf66b328f7814485156523e09dd6b, type: 3}
+  m_PrefabInstance: {fileID: 1103678667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744810819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6095de4800676bb47905217e8a65be20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &759093367
 GameObject:
   m_ObjectHideFlags: 0
@@ -12295,9 +12306,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3001576756001836699, guid: 1bd78c056eda43341b97f52d540bc48a, type: 3}
+      propertyPath: _fertilizer
+      value: 
+      objectReference: {fileID: 294794396}
+    - target: {fileID: 3001576756001836699, guid: 1bd78c056eda43341b97f52d540bc48a, type: 3}
       propertyPath: _wateringCan
       value: 
       objectReference: {fileID: 1927039946}
+    - target: {fileID: 3001576756001836699, guid: 1bd78c056eda43341b97f52d540bc48a, type: 3}
+      propertyPath: _flowersPrefab
+      value: 
+      objectReference: {fileID: 2531129710340186330, guid: 2dba669ab5e98ac47b59c0dfdfefb49f, type: 3}
+    - target: {fileID: 3001576756001836699, guid: 1bd78c056eda43341b97f52d540bc48a, type: 3}
+      propertyPath: _playerMovement
+      value: 
+      objectReference: {fileID: 744810821}
     - target: {fileID: 3066287194663072405, guid: 1bd78c056eda43341b97f52d540bc48a, type: 3}
       propertyPath: m_Name
       value: FlowerField

@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     private float _horizontalMovement;
     private float _verticalMovement;
     private Vector3 _movement;
-    [SerializeField] private float _speed = 2f;
+    [SerializeField] public float _speed = 2f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
