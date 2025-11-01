@@ -123,7 +123,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _targetValue: 1
-  _teleportPoints: []
+  _collectSound: {fileID: 0}
 --- !u!1001 &758859927359713616
 PrefabInstance:
   m_ObjectHideFlags: 0

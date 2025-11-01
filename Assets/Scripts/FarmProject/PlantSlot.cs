@@ -7,22 +7,27 @@ public class PlantSlot : MonoBehaviour
     [SerializeField] private GameObject _plantPrefab;
     [SerializeField] private Transform _spawnPoint;
     [SerializeField] private ScoreDatas _scoreData;
+    [SerializeField] private AudioClip _complete;
+    [SerializeField] private AudioClip _fail;
     private void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.GetComponent<Collector>() != null)
         {
             if (WateringCan._wateringCanEquipped)
             {
-                if (_scoreData.Inventory >= 0)
+                if (_scoreData.Inventory > 0)
                 {
                     Instantiate(_plantPrefab,
-                        _spawnPoint.position + Vector3.up * 0.5f, _spawnPoint.rotation);
+                        _spawnPoint.position + Vector3.up * 0.9f, _spawnPoint.rotation);
                     _fertilizer.UsedFertilizer();
-                    Destroy(gameObject);
+                    AudioSource.PlayClipAtPoint(_complete, transform.position);
+                    
                     
                 }
-
-                
+            }
+            else
+            {
+                AudioSource.PlayClipAtPoint(_fail, transform.position, 2.5f);
             }
         }
     }
