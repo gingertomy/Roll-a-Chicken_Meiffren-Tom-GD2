@@ -21,7 +21,7 @@ public class PlantSlot : MonoBehaviour
                         _spawnPoint.position + Vector3.up * 0.9f, _spawnPoint.rotation);
                     _fertilizer.UsedFertilizer();
                     AudioSource.PlayClipAtPoint(_complete, transform.position);
-                    
+                    Destroy(gameObject);
                     
                 }
             }
