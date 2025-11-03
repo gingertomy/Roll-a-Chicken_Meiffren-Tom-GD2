@@ -15,6 +15,7 @@ public class PlantSlot : MonoBehaviour
         {
             if (WateringCan._wateringCanEquipped)
             {
+                AudioSource.PlayClipAtPoint(_fail, transform.position, 2.5f);
                 if (_scoreData.Inventory > 0)
                 {
                     Instantiate(_plantPrefab,

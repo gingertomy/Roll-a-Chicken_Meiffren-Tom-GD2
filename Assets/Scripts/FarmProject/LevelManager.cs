@@ -3,7 +3,6 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    [SerializeField] private ScoreDatas _scoreDatas;
     public void LoadNewLevel(int buildIndex)
     {
         SceneManager.LoadScene(buildIndex);
@@ -19,18 +18,18 @@ public class LevelManager : MonoBehaviour
     public void LoadMainMenu()
     {
       LoadNewLevel(0);  
-      _scoreDatas.ResetData();
+      
     }
     
     public void LoadLevel1()
     {
         LoadNewLevel(1); 
-        _scoreDatas.ResetData();
+    
     }
     public void LoadLevel2()
     {
         LoadNewLevel(2); 
-        _scoreDatas.ResetData();
+       
         
     }
     
