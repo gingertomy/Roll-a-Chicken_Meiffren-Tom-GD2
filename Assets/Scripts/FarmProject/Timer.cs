@@ -20,10 +20,12 @@ public class Timer : MonoBehaviour
     public void StartTimer()
     {
         _timerIsRunning = true;
+        _scoreDatas.ResetData();
     }
 
     void Start()
     {
+        _scoreDatas.ResetData();
         _timerIsRunning = true;
     }
 
@@ -38,8 +40,7 @@ public class Timer : MonoBehaviour
                 _winCanvas.gameObject.SetActive(true);
                 _bgdMusic.Stop();
                 _bgdMusic.loop = false;
-                AudioSource.PlayClipAtPoint(_win, Camera.main.transform.position, 0.3f);
-                _scoreDatas.ResetData();
+                AudioSource.PlayClipAtPoint(_win, Camera.main.transform.position, 0.3f); 
                 _playerMovement.StopMovement();
 
             }
@@ -48,7 +49,6 @@ public class Timer : MonoBehaviour
             {
                 _timeRemaining -= Time.deltaTime;
                 _uiController.DisplayTime(_timeRemaining);
-                _scoreDatas.ResetData();
             }
             else if (!_losePlayed)
             {
@@ -71,7 +71,6 @@ public class Timer : MonoBehaviour
         _bgdMusic.loop = false;
         AudioSource.PlayClipAtPoint(_loose, Camera.main.transform.position, 0.3f);
         _playerMovement.StopMovement();
-        _scoreDatas.ResetData();
     }
 }
 

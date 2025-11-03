@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a22baa20d628ce4c91311ad989cda9a, type: 3}
   m_Name: ScoreData
   m_EditorClassIdentifier: 
-  ScoreValue: 0
+  ScoreValue: 1
   Inventory: 0
-  Life: 3
+  Life: 2
