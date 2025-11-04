@@ -16,7 +16,7 @@
 - **Hache** : permet de casser un mur d’arbres pour accéder à une nouvelle zone.  
 - **Arrosoir** : sert à arroser un champ de fleurs qui procure un boost de vitesse de 5 secondes.  
 - **Engrais** : combiné avec l’arrosoir, il fait pousser une plante permettant d’atteindre des zones en hauteur.  
-  - Une seule utilisation par engrais.
+  - Une seule utilisation par engrais, cummulable.
 - Des particules pour les mettre en valeur.
 
 ### Vies et dangers
