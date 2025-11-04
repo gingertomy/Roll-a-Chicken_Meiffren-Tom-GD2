@@ -18512,10 +18512,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Loose
+  m_text: You Lose
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 87c3e506c6b621c43973106072289460, type: 2}
+  m_sharedMaterial: {fileID: 7195584336475176853, guid: 87c3e506c6b621c43973106072289460, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -24758,7 +24758,7 @@ GameObject:
   - component: {fileID: 328100684}
   - component: {fileID: 328100683}
   m_Layer: 5
-  m_Name: NextLevelButton
+  m_Name: Try Again
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25427,7 +25427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1407392385203206254, guid: 7d18a9ac25d7a494fa14c63873541e74, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -15.268372
+      value: -15.268311
       objectReference: {fileID: 0}
     - target: {fileID: 2290883350700781485, guid: 7d18a9ac25d7a494fa14c63873541e74, type: 3}
       propertyPath: m_Pivot.x
@@ -46401,7 +46401,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4cb17f56e57e6e54a9d7611f14297e19, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -62863,7 +62863,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 4cb17f56e57e6e54a9d7611f14297e19, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -63277,8 +63277,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You Win !
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
-  m_sharedMaterial: {fileID: 2140032, guid: dc36b3fdc14f47ebb36fd484a67e268a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 87c3e506c6b621c43973106072289460, type: 2}
+  m_sharedMaterial: {fileID: 7195584336475176853, guid: 87c3e506c6b621c43973106072289460, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -64436,6 +64436,10 @@ PrefabInstance:
     - target: {fileID: 108507113624723981, guid: eebb56c82efbd8d4bb0eb6bd925a0e9d, type: 3}
       propertyPath: m_Name
       value: Stump_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6260085879979622260, guid: eebb56c82efbd8d4bb0eb6bd925a0e9d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.062
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
